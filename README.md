@@ -1,13 +1,14 @@
 # Voxel Cube Renderer
 
-This project is a 3D visualization tool that renders a grid of voxel cubes using modern OpenGL. It includes functionality for real-time interaction, such as zooming and rotating the view.
+This project is a simple voxel cube renderer using OpenGL, GLFW, and GLEW. The program displays a grid of colored cubes in a 3D space, allowing for interaction through mouse movement and scroll to zoom.
 
 ## Features
 
-- **Voxel Grid Rendering**: Renders a grid of 50x50x50 colored cubes using instancing for performance optimization.
-- **Interactive Controls**: Supports mouse and scroll interactions for rotating the scene and zooming in/out.
-- **Lighting and Shading**: Implements basic ambient, diffuse, and specular lighting models for realistic shading.
-- **Random Colors**: Generates random colors for each cube to create a visually engaging experience.
+- **Rendering**: Renders a grid of `50x50x50` cubes, each with a unique color generated based on its index.
+- **Camera Controls**: Allows for camera movement through mouse interaction.
+  - **Mouse Movement**: Rotates the camera around the scene.
+  - **Scroll**: Zooms the camera in and out.
+- **Lighting**: Implements basic Phong lighting with ambient, diffuse, and specular components.
 
 ## Requirements
 
@@ -72,12 +73,14 @@ This document outlines future improvements and features that can be added to enh
 
 ## Features
 
+- [ ] **Instancing**:Implement instancing to improve performance when rendering a large number of cubes.
 - [ ] **Implement Dynamic Voxel Addition/Removal**: Allow users to add or remove voxels interactively, enabling more flexible scene modifications.
 - [ ] **Voxel Selection**: Implement functionality to select and highlight individual voxels with the mouse.
 - [ ] **Save/Load Scenes**: Add support for saving and loading voxel configurations to/from files.
 - [ ] **Advanced Lighting**: Introduce more sophisticated lighting techniques such as shadow mapping or bloom effects.
 - [ ] **Textures and Materials**: Allow voxels to be textured with images or procedural patterns to enhance visual fidelity.
 - [ ] **Multiple Light Sources**: Add support for multiple dynamic light sources with adjustable properties.
+
 
 ## Performance Improvements
 
