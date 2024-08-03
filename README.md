@@ -4,7 +4,7 @@ This project is a simple voxel cube renderer using OpenGL, GLFW, and GLEW. The p
 
 ## Features
 
-- **Rendering**: Renders a grid of `50x50x50` cubes, each with a unique color generated based on its index.
+- **Rendering**: Renders a grid of `mxnx5p` cubes, each with a unique color generated based on its index.
 - **Camera Controls**: Allows for camera movement through mouse interaction.
   - **Mouse Movement**: Rotates the camera around the scene.
   - **Scroll**: Zooms the camera in and out.
