@@ -1,5 +1,3 @@
-# ModernOpenglCube
-
 # Voxel Cube Renderer
 
 This project is a 3D visualization tool that renders a grid of voxel cubes using modern OpenGL. It includes functionality for real-time interaction, such as zooming and rotating the view.
